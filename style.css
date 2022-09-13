@@ -1,23 +1,33 @@
+body {
+  background: #43bccd;
+}
+
+
 nav {
-    background-color: #43bccd;
-    border-bottom: 1px solid #43bccd;
-    position: fixed;
+    background-color: #662e9b;
+    border-bottom: 1px solid #662e9b;
+    position: static;
     width: 100%;
-    z-index: 10;
+  }
+
+nav a {
+  text-decoration:none;
+  color:#FFF;
+  font-size:14px;
   }
 
 ul {
-    margin: 30px auto;
-    padding: 0 20px;
     text-align: center;
 }
 
 li {
     color: #FFF;
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+    font-family: Cambria;
+    font-size: 30px;
+    font-weight: 500;
     text-transform: uppercase;
     display: inline-block;
-    width: 120px;  
+    width: 170px;  
   }
+
+  
