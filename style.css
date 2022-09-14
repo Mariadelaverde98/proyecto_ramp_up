@@ -2,32 +2,37 @@ body {
   background: #43bccd;
 }
 
-
 nav {
-    background-color: #662e9b;
-    border-bottom: 1px solid #662e9b;
     position: static;
     width: 100%;
+    margin: 0;
   }
 
 nav a {
   text-decoration:none;
   color:#FFF;
   font-size:14px;
+  padding: 30px;
   }
 
 ul {
-    text-align: center;
+  background-color: #662e9b;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
-    color: #FFF;
-    font-family: Cambria;
-    font-size: 30px;
-    font-weight: 500;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 170px;  
-  }
+  color: #FFF;
+  font-family: Cambria;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 90px; 
+  padding: 0;
+}
 
-  
+nav a:hover {
+  color: black;
+}
