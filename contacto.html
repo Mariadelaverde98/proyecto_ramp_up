@@ -11,42 +11,52 @@
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mis datos de contacto</h1>
-    </header>
     <nav>
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="./biografia.html">Biografía</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
+        <div clas="barra"> 
+            <ul>
+                <li id="botlogo"><a class="menu" href="./index.html"><img id="logo" src="./favicon.png"/></a></li>
+                <li><a class="menu" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="menu" href="./biografia.html">Biografía</a></li>
+                <li><a class="menu" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>  
     </nav>
-    <section>
-        <div>
-        <table>
-            <tr>
-                <th>Nombre</th>
-                <td>María Soledad</td>
-            </tr>  
-            <tr>
-                <th>Apellidos</th>
-                <td>de la Verde Perez</td>
-            </tr>
-            <tr>
-                <th>Teléfono</th>
-                <td>616 60 99 57</td>
-            </tr>
-            <tr>
-                <th>Dirección</th>
-                <td>Bº Los Campos 18, Parbayón</td>
-            </tr>
-            <tr>
-                <th>LinkedIn</th>
-                <td><a href="https://www.linkedin.com/in/mar%C3%ADa-soledad-de-la-verde-p%C3%A9rez-209094216/">LinkedIn de María</a></td>
-            </tr>
-            </table>
+    <header class="contact">
+        <h1 class="contact"><b>¿Quieres contactar conmigo?</b></h1>
+        <h3 class="contact">Rellena el siguiente formulario y contactaré contigo lo antes posible.</h3>
+    </header>
+    <section class="form">
+        
+        <div class="form">
+        <form class="form">
+            <ul>
+             <li id="contactame"><h2>Contáctame</h2></li>
+             <li>
+               <input type="text" id="name" placeholder="Nombre">
+             </li>
+             <li>
+                <input type="text" id="tfn" placeholder="Teléfono">
+              </li>
+             <li>
+               <input type="email" id="mail" placeholder="email">
+             </li>
+             <li>
+               <input type="text" id="msg" placeholder="Motivo de contacto"></input>
+             </li>
+             <li id="enviar">
+                <button type="button">Enviar</button>
+              </li>
+            </ul>
+           </form>
         </div>
     </section>
+    <footer>
+        <ul>
+            <li><p><b>Redes solciales:</b> </p></li>
+            <li><a href="#"><img id="insta" class="social" src="insta.png"/></a></li>
+            <li><a href="#"><img id="whatsapp" class="social" src="whatsApp.png"/></a></li>
+            <li><a href="#"><img id="twitter" class="social" src="twitter.png"/></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
