@@ -11,7 +11,6 @@ h1 {
     font-family: sans-serif;
     font-size: 32px;
     font-weight: 300;
-    
 }
 
 nav ul {
@@ -214,7 +213,7 @@ div.portfolio#laboral{
   justify-content: center;
 }
 
-div.laboral{
+div.laboral, div.formacion{
   display: flex;
   justify-content: left;
   padding-left: 80px;
@@ -222,18 +221,18 @@ div.laboral{
 
 div.laboral.ih {
   background-color: aliceblue;
-  box-shadow: 0px 0px 3px rgb(34, 108, 117);
+  box-shadow: 0px 0px 8px rgb(34, 108, 117);
   justify-content: right;
   padding-right: 80px;
 }
 
 div.lis dl{
-  padding-left: 100px;
+  padding-left: 75px;
   padding-top: 25px;
 }
 
 div.ih dl{
-  padding-right: 115px;
+  padding-right: 140px;
   padding-top: 25px;
 }
 
@@ -244,7 +243,7 @@ div.ih img {
 }
 
 div.nhorte dl{
-  padding-left: 140px;
+  padding-left: 115px;
   padding-top: 25px;
 }
 
@@ -255,3 +254,50 @@ div.nhorte img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+div.formacion.uc {
+  background-color:#93dae3;
+  box-shadow: 0px 0px 8px rgb(34, 108, 117);
+}
+
+div#formacion {
+  background-color: aliceblue;
+}
+
+div.formacion.bridge, div.formacion.laquila {
+  justify-content: right;
+  padding-right: 80px;
+}
+
+div.bridge img{
+  width: 120px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.uc img{
+  width: 120px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+
+div.laquila img {
+  width: 220px;
+}
+
+div.laquila dl {
+  padding-top: 35px;
+}
+
+div.bridge dl {
+  padding-right: 205px;
+  padding-top: 35px;
+}
+
+div.uc dl {
+  padding-left: 65px;
+  padding-top: 30px;
+}
+
