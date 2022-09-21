@@ -1,3 +1,4 @@
+/*-----------------comun--------------*/
 body {
   background: #93dae3;
   margin: 0;
@@ -6,16 +7,13 @@ body {
 }
 
 h1 {
-  /*text-shadow: 3px 3px 3px rgb(34, 108, 117);*/
   text-align: center;
-  font-family: sans-serif;
   font-size: 32px;
   font-weight: 300;
 }
 
 nav ul {
   list-style-type: none;
-  overflow: hidden;
   background-color: #333;
   margin: 0;
   padding: 0;
@@ -34,18 +32,10 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
 }
-
 
 li a:hover {
   color: rgb(163, 156, 156);
-}
-
-#logo {
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
 }
 
 #botlogo {
@@ -56,6 +46,14 @@ li a:hover {
 #botlogo:hover {
   filter: brightness(50%);
 }
+
+#logo {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+/*---------------index--------*/
 
 .head.inicio img {
   border-radius: 100%;
@@ -81,18 +79,17 @@ li a:hover {
 .head {
   background-color: #a7e7ce;
   padding: 40px;
-  position: relative;
   box-shadow: 3px 3px 3px rgb(34, 108, 117);
 }
 
 .welcome h2 {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
   padding: 50px;
   font-size: 45px;
   font-weight: 300;
 }
 
+/*---------------footer comun-----------*/
 footer {
   background-color: white;
   padding: 15px;
@@ -127,6 +124,8 @@ footer p {
   font-family: 'Oswald', sans-serif;
 }
 
+/*-------------Contacto----------------*/
+
 .form ul {
   list-style-type: none;
   display: flex;
@@ -137,7 +136,6 @@ footer p {
 header.contact {
   background-color: #a7e7ce;
   padding: 35px;
-  position: relative;
   box-shadow: 3px 3px 3px rgb(34, 108, 117);
 }
 
@@ -163,10 +161,8 @@ form {
 }
 
 button {
-  display: inline-block;
   width: 250px;
   height: 60px;
-  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #515151;
   background-color: #93dae3;
@@ -186,10 +182,8 @@ div.form {
 #tfn,
 #name,
 #msg {
-  position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, .1);
   padding-left: 20px;
-  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #454444;
 }
@@ -208,7 +202,7 @@ li#contactame {
 
 }
 
-/* portfolio */
+/*------------------------------portfolio------------------ */
 div.portfolio h2 {
   text-align: center;
   background-color: #a7e7ce;
@@ -472,7 +466,7 @@ div#bio1 p{
   box-shadow: 3px 3px 3px rgb(34, 108, 117);
   justify-content: center;
   padding: 105px 40px;
-  background-color: aliceblue;;
+  background-color: aliceblue;
 }
 div#bio2 p{
   font-size: larger;
